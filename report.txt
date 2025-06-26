@@ -1,0 +1,25 @@
+Title: Driving Climate Action with Machine Learning: Predicting Vehicle CO₂ Emissions
+
+Sustainable Development Goal: SDG 13 – Climate Action
+
+Problem:
+Transportation is a leading source of global CO₂ emissions. However, consumers and policymakers often lack tools to estimate how individual car choices impact the environment.
+
+Solution:
+This project uses supervised machine learning (Linear Regression) to predict CO₂ emissions based on vehicle specifications such as make, model, class, and engine size. By doing so, it promotes awareness and facilitates greener transport decisions.
+
+Dataset:
+We used an open dataset of vehicle characteristics and CO₂ output, with columns including "Make", "Model", "Engine Size(L)", and "CO2 Emissions(g/km)".
+
+Model Summary:
+- Algorithm: Linear Regression
+- Features: Make, Model, Vehicle Class, Engine Size(L)
+- Target: CO₂ Emissions(g/km)
+- MAE: XX.XX
+- R² Score: X.XX
+
+Ethical Considerations:
+The model relies on available vehicle data, which may omit certain regional or electric car options. For fairness, the dataset covers a broad range of manufacturers and models.
+
+Impact:
+By forecasting CO₂ emissions, the model supports responsible consumption and policy evaluation aligned with SDG 13.
